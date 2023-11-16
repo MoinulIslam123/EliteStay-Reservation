@@ -1,0 +1,75 @@
+#reservation {
+
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-color: #333;
+
+    background-image:linear-gradient( rgba(0,0,0,.75), rgba(0,0,0,.75)),url('images/home-img-3.jpg');
+    background-size: cover;
+    background-position:center;
+    margin-bottom: 40px;
+}
+.res {
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.container1 {
+    width: 50%;
+    background-color: rgb(36, 35, 34);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: cadetblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+input,
+select,
+.btn1 {
+    font-family: cursive;
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn1 {
+    background-color:#23b2dd;
+    color:#ffffff;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    width: 150px;
+}
+
+.btn1:hover {
+    background-color:#91d9ee;
+    color:black
+}
